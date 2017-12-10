@@ -1,1 +1,7 @@
-body {background-color: red;}
+    *{
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+        
+    }
+    
