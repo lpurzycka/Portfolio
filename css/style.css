@@ -7,6 +7,7 @@ body {
         margin: 0;
         padding: 0;
         font-family: 'Lato', sans-serif;
+        
         color: #291f1a;
         font-weight: 300;
               }
@@ -42,3 +43,41 @@ nav#main-nav {
     color:#291f1a;
 }
 /*Nawigation -end*/
+
+/*Header -start*/
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}  
+
+#main-header .main-header-content  {
+    text-align: center;
+    padding: 30vh;
+}
+    
+#main-header .main-header-content h1 {
+    font-weight: 300;
+    font-family: "Roboco", sans-serif;
+    font-size: 3em;
+}
+#main-header .main-header-content h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+#main-header .main-header-content h1 span {
+    color:  #1ac056;
+}
+  
+ /*Header -end*/   
+    
+    
+/*Sekcja -start*/
+
+
+
+
+/*Sekcja -end*/
