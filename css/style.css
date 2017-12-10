@@ -2,12 +2,11 @@
 
 *{ box-sizing:border-box;
      }
-
+/*ustalamy że zdjęcie będzie miało 200px, pomimo dodania marginesu, albo padding do zdjęcia, wtedy zdjęcie zostanie automatycznie zmniejszone, tak aby razem wyszło 200px*/
 body {
         margin: 0;
         padding: 0;
         font-family: 'Lato', sans-serif;
-        
         color: #291f1a;
         font-weight: 300;
               }
@@ -26,12 +25,14 @@ nav#main-nav {
 
 #main-nav> ul  {
     float: right;
+/* przesunie nam element w prawo */
     margin:0;
      }
     
 #main-nav> ul > li {
     display: inline-block;
     padding: 20px 40px;
+/*    odsunie nam 20px w dól i w górę oraz 40px w lewo i prawo, natomiast margines odsunie nam px od strony okna przeglądarki*/
 }
         
 #main-nav> ul > li > a {
@@ -64,10 +65,12 @@ nav#main-nav {
     font-family: "Roboco", sans-serif;
     font-size: 3em;
 }
+
 #main-header .main-header-content h2 {
     font-size: 2em;
     font-weight: 300;
 }
+
 #main-header .main-header-content h1 span {
     color:  #1ac056;
 }
@@ -75,9 +78,35 @@ nav#main-nav {
  /*Header -end*/   
     
     
-/*Sekcja -start*/
+/*Sekcja O mnie -start*/
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    width:100%;
+}
+
+#about > figure {
+    width: 50%;
+    margin:0;
+   
+    
+}
+    
+#about > figure > img {
+    max-width: 350px;  
+        }
+
+#about > article {
+    width: 50%;
+    float: left;    
+
+}
+    
 
 
 
 
-/*Sekcja -end*/
+
+
+/*Sekcja O mnie -end*/
