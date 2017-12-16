@@ -6,10 +6,30 @@
 body {
         margin: 0;
         padding: 0;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Lato', 'sans-serif';
         color: #291f1a;
         font-weight: 300;
               }
+
+
+span {
+    color:#1ac056;
+    font-weight: 400;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+section {
+    padding: 0 80px 100px;
+    width:100%;
+}
+
+p{
+    line-height: 25px;
+}
 /*General styles -end*/
 
 /*Nawigation -start*/
@@ -21,6 +41,9 @@ nav#main-nav {
     right: 0;
     background-color: white;
     font-weight: 300;
+    
+/*    powoduje że warstwa będzie zawsze na górze*/
+    z-index: 999; 
 }
 
 #main-nav> ul  {
@@ -31,6 +54,7 @@ nav#main-nav {
     
 #main-nav> ul > li {
     display: inline-block;
+    list-style: none;
     padding: 20px 40px;
 /*    odsunie nam 20px w dól i w górę oraz 40px w lewo i prawo, natomiast margines odsunie nam px od strony okna przeglądarki*/
 }
@@ -39,6 +63,7 @@ nav#main-nav {
    text-decoration: none;
     list-style-type:none;
      color: #1ac056;
+    font-weight: 300;
 }
 #main-nav> ul > li > a:hover{
     color:#291f1a;
@@ -94,12 +119,13 @@ nav#main-nav {
 
 #about h2 {
     text-align: center;
-    
+  
 }
 #about > figure {
     width: 50%;
     margin:0;
     float:left;
+    text-align: center;
  
 }
     
@@ -115,17 +141,34 @@ nav#main-nav {
     width: 50%;
     float: left; 
     margin: -30px;
-    
 }
 
 #about > h2 > span {
     color: #1ac056;
 }
     
-
-
-
-
-
-
 /*Sekcja O mnie -end*/
+
+/*Sekcja Moje Umiejętności -start*/
+
+#skills-icons {
+    text-align: center;
+}
+
+#skills-icons > figure {
+    display: inline-block;
+    text-align: center;
+       }
+
+#skills-icons > figcaption {
+    text-align: center;
+    }
+
+#skills > p {
+    text-align: center;
+}
+
+
+
+
+/*Sekcja Moje Umiejętności -end*/
