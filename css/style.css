@@ -143,11 +143,13 @@ nav#main-nav {
 
 
 
-#about > p {
+#about  h3 {
     width: 50%;
     float: left;
-    
-}
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    }
 
 #about > h2 > span {
     color: #1ac056;
