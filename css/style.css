@@ -1,74 +1,82 @@
 /*General styles -start*/
 
-*{ box-sizing:border-box;
-     }
+* {
+    box-sizing: border-box;
+}
+
 /*ustalamy że zdjęcie będzie miało 200px, pomimo dodania marginesu, albo padding do zdjęcia, wtedy zdjęcie zostanie automatycznie zmniejszone, tak aby razem wyszło 200px*/
+
 body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Lato', 'sans-serif';
-        color: #291f1a;
-        font-weight: 300;
-              }
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'sans-serif';
+    color: #291f1a;
+    font-weight: 300;
+}
 
 
 span {
-    color:#1ac056;
+    color: #1ac056;
     font-weight: 400;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
 section {
     padding: 0 80px 100px;
-    width:100%;
+    width: 100%;
 }
 
-p{
+p {
     line-height: 25px;
 }
+
 /*General styles -end*/
 
 /*Nawigation -start*/
 
 nav#main-nav {
-    width:100%;
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
     background-color: white;
     font-weight: 300;
-    
-/*    powoduje że warstwa będzie zawsze na górze*/
-    z-index: 999; 
+    /*    powoduje że warstwa będzie zawsze na górze*/
+    z-index: 999;
 }
 
-#main-nav> ul  {
+#main-nav > ul {
     float: right;
-/* przesunie nam element w prawo */
-    margin:0;
-     }
-    
-#main-nav> ul > li {
+    /* przesunie nam element w prawo */
+    margin: 0;
+}
+
+#main-nav > ul > li {
     display: inline-block;
     list-style: none;
     padding: 20px 40px;
-/*    odsunie nam 20px w dól i w górę oraz 40px w lewo i prawo, natomiast margines odsunie nam px od strony okna przeglądarki*/
+    /*    odsunie nam 20px w dól i w górę oraz 40px w lewo i prawo, natomiast margines odsunie nam px od strony okna przeglądarki*/
 }
-        
-#main-nav> ul > li > a {
-   text-decoration: none;
-    list-style-type:none;
-     color: #1ac056;
+
+#main-nav > ul > li > a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1ac056;
     font-weight: 300;
 }
-#main-nav> ul > li > a:hover{
-    color:#291f1a;
+
+#main-nav > ul > li > a:hover {
+    color: #291f1a;
 }
+
 /*Nawigation -end*/
+
+
+
 
 /*Header -start*/
 
@@ -78,13 +86,13 @@ nav#main-nav {
     background-size: cover;
     background-position: center;
     color: white;
-}  
+}
 
-#main-header .main-header-content  {
+#main-header .main-header-content {
     text-align: center;
     padding: 30vh;
 }
-    
+
 #main-header .main-header-content h1 {
     font-weight: 300;
     font-family: "Roboco", sans-serif;
@@ -97,59 +105,65 @@ nav#main-nav {
 }
 
 #main-header .main-header-content h1 span {
-    color:  #1ac056;
+    color: #1ac056;
 }
-  
- /*Header -end*/   
-    
-    
-/*Sekcja O mnie -start*/
+
+/*Header -end*/
+
+
+
+
+/*Sekcja About -start*/
 
 #about {
     background-color: #f9fcfe;
     overflow: hidden;
-    width:100%;
+    width: 100%;
     padding: 0 80px 100px;
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
- }
+}
 
 
 #about h2 {
     text-align: center;
-  
 }
+
 #about > figure {
     width: 50%;
-    margin:0;
-    float:left;
+    margin: 0;
+    float: left;
     text-align: center;
- 
 }
-    
+
 #about > figure > img {
-    max-height: 350px;  
+    max-height: 350px;
     border: 15px solid white;
     border-radius: 30px;
     text-align: center;
     max-width: 100%;
-        }
+}
 
 #about > article {
     width: 50%;
-    float: left; 
+    float: left;
     margin: -30px;
 }
 
 #about > h2 > span {
     color: #1ac056;
 }
-    
-/*Sekcja O mnie -end*/
 
-/*Sekcja Moje Umiejętności -start*/
+/*Sekcja About -end*/
+
+
+
+
+
+
+/*Sekcja Skills -start*/
 
 #skills-icons {
     text-align: center;
@@ -158,37 +172,38 @@ nav#main-nav {
 #skills-icons > figure {
     display: inline-block;
     text-align: center;
-       }
+}
 
 #skills-icons > figcaption {
     text-align: center;
-    }
+}
 
 #skills > p {
     text-align: center;
 }
 
-/*Sekcja Moje Umiejętności -end*/
+/*Sekcja Skills -end*/
 
 
 
 
 
-/*Sekcja portfolio start*/
 
-#section-portfolio {
+/*Sekcja Portfolio start*/
+
+#portfolio {
     padding: 0;
     margin: 0 auto;
-     font-size: 0;
 }
-
 
 #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
 }
+
 #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
 }
+
 #portfolio-item-3 {
     background-image: url(../img/portfolio4.jpg);
 }
@@ -201,18 +216,16 @@ nav#main-nav {
     display: inline-block;
     width: 33.3333%;
     position: relative;
-    
-  
 }
 
 
 .portfolio-items {
     text-align: center;
     font-size: 0;
-    }
+}
 
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask {
+#portfolio .portfolio-items .portfolio-item .item-mask {
     background-color: rgba (42, 61, 79, 0.8);
     width: 100%;
     height: 100%;
@@ -220,13 +233,13 @@ nav#main-nav {
     transition: all 0.3s ease-in-out;
     position: absolute;
     font-size: initial;
-        }
+}
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask:hover {
+#portfolio .portfolio-items .portfolio-item .item-mask:hover {
     opacity: 1;
 }
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask .item-content {
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content {
     height: 330px;
     border: 1px solid #fff;
     margin: 10px;
@@ -234,36 +247,26 @@ nav#main-nav {
     text-align: center;
 }
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
     color: #fff;
     position: absolute;
-    top: 50%
-    transform: translateY(-50%);
+    top: 50% transform: translateY(-50%);
     right: 0;
     left: 0;
     padding: 5px;
 }
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a {
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a {
     color: #fff;
 
 }
 
-#section-portfolio #portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover{
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover {
     color: #1ac056;
 }
 
 
-
-
-
-/*sekcja portfolio koniec*/
-
-
-
-
-
-
+/*sekcja portfolio end*/
 
 
 
@@ -272,26 +275,23 @@ nav#main-nav {
 
 /*Sekcja Stopka -start*/
 
-
-
-
-
 #contact {
-    background-color:  #213b50;
+    background-color: #213b50;
     color: #fff;
     overflow: hidden;
-    
-    
-/*
+
+
+    /*
     padding-left: 100px;
     padding-bottom: 200px;
 */
 }
 
 #contact .contact-data {
-  width: 50%;  
-  float:left;
-   }
+    width: 50%;
+    float: left;
+}
+
 
 
 #contact .contact-data h2 {
@@ -310,7 +310,57 @@ nav#main-nav {
     color: #1ac056;
 }
 
+#contact .contact-social-icons a {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #fff;
+    font-size: 22px;
+    color: #fff;
+}
+
+#contact .contact-social-icons a:hover {
+    border: #213b50;
+    color: #213b50;
+    background-color: #fff;
+}
+
+#contact .contact-form {
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0 #2b4a64;
+    background-color: #2b4a64;
+}
 
 
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    background-color: #426684;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 15px 30px;
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+    font-weight: 600;
+    }
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
 
 /*Sekcja Stopka -koniec*/
