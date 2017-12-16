@@ -1,0 +1,24 @@
+/*
+@media all and (max-width: 1200px)
+    
+@media all and (max-width: 992px)
+*/
+    
+    @media all and (max-width: 768px){
+        
+        #main-nav, #main-header, #about, #skills, #portfolio, #contact, #footer {
+            padding: 0 40px 50px;
+        }
+            
+}
+
+    
+@media all and (max-width: 576px) {
+        
+        #main-nav, #main-header, #about, #skills, #portfolio, #contact, #footer {
+            padding: 0 10px 30px;
+        }
+        
+        
+}
+
