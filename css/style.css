@@ -194,6 +194,7 @@ nav#main-nav {
 #portfolio {
     padding: 0;
     margin: 0 auto;
+    height: 500px;
 }
 
 #portfolio-item-1 {
@@ -261,7 +262,7 @@ nav#main-nav {
 
 }
 
-#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover {
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner i:hover {
     color: #1ac056;
 }
 
@@ -273,7 +274,7 @@ nav#main-nav {
 
 
 
-/*Sekcja Stopka -start*/
+/*Sekcja Contact -start*/
 
 #contact {
     background-color: #213b50;
@@ -363,4 +364,29 @@ input[type="submit"]:hover {
     color: #1ac056;
 }
 
-/*Sekcja Stopka -koniec*/
+/*Sekcja Contact -koniec*/
+
+
+
+
+/*Sekcja Footer start*/
+
+#footer {
+    background-color: #142634;
+    padding: 0 80px;
+}
+
+#footer p, i {
+    color:white;
+    margin: 0;
+    text-align: left;
+    font-size:16px;
+}
+    
+
+
+/*Sekcja Footer koniec*/
+
+
+
+
